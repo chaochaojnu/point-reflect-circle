@@ -5,5 +5,6 @@
 ![1](https://user-images.githubusercontent.com/109158715/178690306-49487674-7a5f-47d7-987b-d989a08907a6.jpg)
 
 2.圆上点集圆心连线计算扇形面积
+![2](https://user-images.githubusercontent.com/109158715/178690574-dd458125-4921-4aff-8517-6acac2a719a3.jpg)
 
 3.扇形面积除以参考圆面积即为残缺圆环占完整圆环的比例
