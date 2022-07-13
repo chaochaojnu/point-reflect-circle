@@ -1,0 +1,112 @@
+﻿  AIFUN.cpp
+D:\desktop\AI分析\AItest\AItest\AIFUN.cpp(95,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\AIFUN.cpp(95,29): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\AIFUN.cpp(96,25): warning C4244: “=”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  main.cpp
+D:\desktop\AI分析\AItest\AItest\main.cpp(35,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(35,29): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(36,14): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(90,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(90,36): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(94,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(94,36): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(114,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(114,36): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(118,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(118,36): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(126,69): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+D:\desktop\AI分析\AItest\AItest\main.cpp(130,69): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  正在生成代码...
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "class cv::debug_build_guard::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@debug_build_guard@1@XZ)，函数 "void __cdecl arcMeasure(class cv::Mat,double &,double &,class cv::Point_<int> &,double &,class cv::Mat &)" (?arcMeasure@@YAXVMat@cv@@AEAN1AEAV?$Point_@H@2@1AEAV12@@Z) 中引用了该符号
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)，函数 "public: class cv::Mat __cdecl cv::Mat::clone(void)const " (?clone@Mat@cv@@QEBA?AV12@XZ) 中引用了该符号
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::subtract(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,int)" (?subtract@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@0H@Z)，函数 "void __cdecl arcMeasure(class cv::Mat,double &,double &,class cv::Point_<int> &,double &,class cv::Mat &)" (?arcMeasure@@YAXVMat@cv@@AEAN1AEAV?$Point_@H@2@1AEAV12@@Z) 中引用了该符号
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::HoughCircles(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,double,double,double,double,int,int)" (?HoughCircles@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HNNNNHH@Z)，函数 "void __cdecl arcMeasure(class cv::Mat,double &,double &,class cv::Point_<int> &,double &,class cv::Mat &)" (?arcMeasure@@YAXVMat@cv@@AEAN1AEAV?$Point_@H@2@1AEAV12@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::HoughCircles(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,double,double,double,double,int,int)" (?HoughCircles@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HNNNNHH@Z)
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HH@Z)，函数 "double __cdecl Area(class cv::Mat &)" (?Area@@YANAEAVMat@cv@@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HH@Z)
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::findContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,class cv::Point_<int>)" (?findContours@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV_OutputArray@31@1HHV?$Point_@H@1@@Z)，函数 "double __cdecl Area(class cv::Mat &)" (?Area@@YANAEAVMat@cv@@@Z) 中引用了该符号
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "double __cdecl cv::contourArea(class cv::debug_build_guard::_InputArray const &,bool)" (?contourArea@cv@@YANAEBV_InputArray@debug_build_guard@1@_N@Z)，函数 "double __cdecl Area(class cv::Mat &)" (?Area@@YANAEAVMat@cv@@@Z) 中引用了该符号
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::circle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)，函数 "void __cdecl arcMeasure(class cv::Mat,double &,double &,class cv::Point_<int> &,double &,class cv::Mat &)" (?arcMeasure@@YAXVMat@cv@@AEAN1AEAV?$Point_@H@2@1AEAV12@@Z) 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::circle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)
+AIFUN.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::drawContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_InputArray const &,int,class cv::Scalar_<double> const &,int,int,class cv::debug_build_guard::_InputArray const &,int,class cv::Point_<int>)" (?drawContours@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV_InputArray@31@HAEBV?$Scalar_@N@1@HH1HV?$Point_@H@1@@Z)，函数 "class cv::Mat __cdecl fill(class cv::Mat &)" (?fill@@YA?AVMat@cv@@AEAV12@@Z) 中引用了该符号
+D:\desktop\AI分析\AItest\x64\Debug\AItest.exe : fatal error LNK1120: 9 个无法解析的外部命令
